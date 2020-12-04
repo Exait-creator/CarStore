@@ -1,0 +1,14 @@
+.idea/
+build
+nodu_modules
+npm-debug.log
+.DS_store
+
+Thumbs.db
+enthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
