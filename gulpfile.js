@@ -4,6 +4,7 @@ const pug = require('gulp-pug');
 const sass = require('gulp-sass');
 const spritesmith = require('gulp.spritesmith');
 const rimraf = require('rimraf')
+const rename = require('gulp-rename')
 
 gulp.task('server', function(){
     browserSync.init({
@@ -26,7 +27,8 @@ gulp.task('templates:compile', function buildHTML() {
 
 gulp.task('styles:compile', function () {
   return gulp.src('source/styles/main.scss')
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(rename('main.min.css'))
     .pipe(gulp.dest('build/css'));
 });
 
