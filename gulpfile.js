@@ -49,12 +49,12 @@ return rimraf('build', cb);
 });
 
 gulp.task('copy:fonts', function () {
-  return gulp.src('./source/fonts/**/*.*')
+  return gulp.src('source/fonts/**/*.*')
     .pipe(gulp.dest('build/fonts'));
 });
 
 gulp.task('copy:images', function () {
-  return gulp.src('./source/images/**/*.*')
+  return gulp.src('source/images/**/*.*')
     .pipe(gulp.dest('build/images'));
 });
 
