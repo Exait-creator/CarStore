@@ -1,0 +1,27 @@
+
+
+.nav {
+  display: inline-block;
+  vertical-align: bottom;
+  padding-bottom: 7px;
+  margin-right: 15px;
+  text-align: left;
+
+
+  &__link {
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 13px;
+    font-family: $ff-main;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    transition: 0.3s;
+
+    &:hover {
+      color: lighten(crimson, 20%);
+    }
+  }
+}
+
+

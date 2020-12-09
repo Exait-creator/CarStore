@@ -1,0 +1,89 @@
+.header {
+  &__top {
+    background-color: #212121;
+    border-bottom: 3px solid #595959;
+
+  }
+  &__medium {
+    color: white;
+    display: flex;
+    background-color: #212121;
+    padding: 18px 18px 18px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    .container{
+      text-align: center;
+    }
+    .num{
+
+      width: 300px;
+
+    }
+  }
+  &__bottom {
+    background-color: #030303;
+    padding: 10px 10px 10px;
+
+
+
+  }
+}
+.info{
+  display: flex;
+  .container{
+    border-right: 3px solid #595959;
+  }
+}
+.contacts {
+  text-align: right;
+}
+
+.contact {
+
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 10px 8px;
+  color: #dc143c;
+  transition: 0.3s;
+  text-decoration: none;
+
+  &:hover {
+    color: lighten(crimson, 20%);
+  }
+
+  &_text__2{
+    color: #fff;
+    font-size: 1.3rem;
+
+  }
+
+  &__text__3{
+    font-size: 0.8rem;
+    color: #808080;
+  }
+
+  &__number {
+    font-size: 1.4rem;
+    margin-right: 5%;
+
+  }
+
+  &__icon {
+    margin-right: 7px;
+    vertical-align: middle;
+    font-size: 1rem;
+  }
+}
+
+
+
+.search-icon {
+  display: inline-block;
+  margin: 7px 0;
+  padding: 5px 4px 8px;
+  border-radius: 3px;
+  color: white;
+}
+
+

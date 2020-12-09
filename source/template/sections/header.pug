@@ -1,51 +1,17 @@
 header.header
   .header__top
-      .container
-          .contacts
-              a.contact(href="index.html")
-                i.fa.fa-user(aria-hidden="true")
-                  span.contact__text My Account
-
-                a.contact(href="index.html")
-                  i.fa.fa-shopping-cart(aria-hidden="true")
-                    span.contact__text Cart
-
-              a.contact(href="index.html")
-                i.fa.fa-check-circle(aria-hidden="true")
-                  span.contact_text Checkout
-
-              a.search-icon(href="index.html")
-                i.fa.fa-search(aria-hidden="true")
-.container
+    .container
+        include contacts
   .header__medium
-      .logo: img.logo__picture(src="images/logo.png" alt="pictures")
-      a.contact(href="tel:+1234567890")
-        i.fa.fa-mobile(aria-hidden="true")
-          span.contact__text +123 456 7890
+    .container
+        .logo: img.logo__picture(src="images/logo.png" alt="pictures")
+    .container
+        include info
 
-      span.contact__text MON-FRI: 8:30AM-7:30PM; SAT-SUN: 9:30AM-4:30PM
+  .header__bottom
+    .container
+        include nav
 
-      a.contact(href="index.html")
-        i.fa.fa-star(aria-hidden="true")
-          span.contact_text WHITELIST
-
-      a.contact(href="index.html")
-        i.fa.fa-car(aria-hidden="true")
-          span.contact_text COMPARE
-
-      a.contact(href="index.html")
-        i.fa.fa-shopping-cart(aria-hidden="true")
-          span.contact_text MY CART
-
-.container
-    .header__bottom
-        nav.nav
-        - const items = ['HOME ', 'SERVICES ', 'ABOUT ', 'REVIEWS ', 'LOCATIONS ', 'CONTACTS ']
-          each item in items
-              if item === 'HOME'
-                 a.nav__link.nav__link--active(href="#")= item
-              else
-                 a.nav__link(href="#")= item
 
 
 
