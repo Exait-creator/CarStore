@@ -2,9 +2,11 @@
   &__top {
     background-color: #212121;
     border-bottom: 3px solid #595959;
+    font-family: $ff-main;
 
   }
   &__medium {
+    font-family: $ff-main;
     color: white;
     display: flex;
     background-color: #212121;
@@ -43,10 +45,11 @@
 
   display: inline-block;
   vertical-align: top;
-  padding: 10px 10px 8px;
+  padding: 10px 20px 10px;
   color: #dc143c;
   transition: 0.3s;
   text-decoration: none;
+  font-size: 1.2rem;
 
   &:hover {
     color: lighten(crimson, 20%);
@@ -80,10 +83,13 @@
 
 .search-icon {
   display: inline-block;
-  margin: 7px 0;
+  margin-left: 10px;
   padding: 5px 4px 8px;
   border-radius: 3px;
   color: white;
+  border-left: 3px solid #595959;
+  font-size: 1.5rem;
+  text-align: right;
 }
 
 

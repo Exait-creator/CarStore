@@ -2,10 +2,13 @@ body {
   font-family: $ff-main;
   font-size: 1rem;
   line-height: 1.2;
+  background-color: #595959;
 }
 
 html {
   box-sizing: border-box;
+  max-width: 1600px;
+  margin: auto;
 }
 
 *, *:before, *:after {

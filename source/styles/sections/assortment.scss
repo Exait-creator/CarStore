@@ -1,0 +1,11 @@
+.assortment {
+  display: inline-block;
+
+  &__cell1 {
+    min-width: 802px;
+    height: 401px;
+    background: #303030 url('../../images/Heaadlights.png') no-repeat;
+    color: white;
+    margin-right: 800px;
+}
+}
