@@ -1,0 +1,22 @@
+.featured {
+  font-family: $ff-main;
+  padding: 10px 0 10px 0;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0 50px;
+  }
+
+  &__title {
+    color: white;
+    text-align: center;
+  }
+
+
+  &__item {
+    width: 15%;
+  }
+}

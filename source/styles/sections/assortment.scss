@@ -1,11 +1,140 @@
 .assortment {
   display: inline-block;
 
+
   &__cell1 {
+
+    position: relative;
     min-width: 802px;
     height: 401px;
-    background: #303030 url('../../images/Heaadlights.png') no-repeat;
+    background-color: #303030;
     color: white;
-    margin-right: 800px;
-}
+    font-family: $ff-main;
+
+    .text1 {
+      position: absolute;
+      left: 2px;
+      top: 50px;
+      font-size: 1.2rem;
+      color: #979696;
+    }
+
+    .div1 {
+      width: 40%;
+      position: absolute;
+      top: 169px;
+      left: 40px;
+      font-family: $ff-main;
+      font-size: 2.3rem;
+    }
+
+
+    .light {
+      position: absolute;
+      top: 90px;
+      left: 370px;
+    }
+  }
+
+
+  &__cell2 {
+    position: relative;
+    min-width: 798px;
+    height: 401px;
+    background-color: #1c1c1c;
+    color: white;
+    font-family: $ff-main;
+
+
+    .text2 {
+      position: absolute;
+      left: 2px;
+      top: 50px;
+      font-size: 1.2rem;
+      color: #979696;
+    }
+
+    .div2 {
+      width: 40%;
+      position: absolute;
+      top: 169px;
+      left: 40px;
+      font-family: $ff-main;
+      font-size: 2.3rem;
+    }
+
+
+    .brake {
+      position: absolute;
+      top: 64px;
+      left: 370px;
+    }
+  }
+
+  &__cell3 {
+    position: relative;
+    min-width: 798px;
+    height: 401px;
+    background-color: #1c1c1c;
+    color: white;
+    font-family: $ff-main;
+
+
+    .text3 {
+      position: absolute;
+      left: 2px;
+      top: 50px;
+      font-size: 1.2rem;
+      color: #979696;
+    }
+
+    .div3 {
+      width: 40%;
+      position: absolute;
+      top: 169px;
+      left: 40px;
+      font-family: $ff-main;
+      font-size: 2.3rem;
+    }
+
+
+    .Disk {
+      position: absolute;
+      top: 64px;
+      left: 370px;
+    }
+  }
+
+  &__cell4 {
+    position: relative;
+    min-width: 798px;
+    height: 401px;
+    background-color: #303030;
+    color: white;
+    font-family: $ff-main;
+
+    .div4 {
+      width: 40%;
+      position: absolute;
+      top: 169px;
+      left: 40px;
+      font-family: $ff-main;
+      font-size: 2.4rem;
+    }
+
+    .text4 {
+      position: absolute;
+      left: 2px;
+      top: 50px;
+      font-size: 1.2rem;
+      color: #979696;
+    }
+
+
+    .Chair {
+      position: absolute;
+      top: 50px;
+      left: 408px;
+    }
+  }
 }
