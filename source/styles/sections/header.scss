@@ -2,6 +2,7 @@
   &__top {
     background-color: #212121;
     border-bottom: 3px solid #595959;
+
     font-family: $ff-main;
 
   }
@@ -10,7 +11,7 @@
     color: white;
     display: flex;
     background-color: #212121;
-    padding: 18px 18px 18px;
+    padding: 18px 0 18px 0;
     justify-content: space-between;
     flex-wrap: wrap;
     align-content: center;
@@ -34,8 +35,15 @@
 .info{
   display: flex;
   .container{
+
     border-right: 3px solid #595959;
   }
+  .div1{
+    padding-right: 30px;
+   width: 600px;
+    text-align: right;
+  }
+
 }
 .contacts {
   text-align: right;
@@ -77,6 +85,7 @@
     vertical-align: middle;
     font-size: 1rem;
   }
+
 }
 
 

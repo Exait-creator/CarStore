@@ -1,0 +1,20 @@
+.offers {
+  min-height: 675px;
+  min-width: 1600px;
+
+
+  background: url('../images/OffersBG.png') center/cover no-repeat;
+
+  font-family: $ff-main;
+  padding: 99px 0 105px 0;
+  text-align: center;
+  color: white;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0 50px;
+  }
+}

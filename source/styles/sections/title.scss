@@ -1,0 +1,31 @@
+.title {
+  margin-bottom: 65px;
+  text-align: center;
+
+
+  &.div1 {
+    margin: 0;
+    font-size: 2.25rem;
+    font-family: $ff-main;
+    line-height: 1;
+  }
+
+  &__text {
+    font-size: 1.25rem;
+    font-family: $ff-main;
+  }
+
+  &--with-bottom-line {
+    position: relative;
+
+    &:after {
+      @include centerer-x();
+
+      content: '';
+      bottom: -20px;
+      width: 112px;
+      height: 6px;
+      background: #9c1c28;
+    }
+  }
+}
