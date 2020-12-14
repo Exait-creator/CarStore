@@ -28,4 +28,18 @@
       background: #9c1c28;
     }
   }
+
+  &--with-bottom-line1 {
+    position: relative;
+
+    &:after {
+      @include centerer-x();
+
+      content: '';
+      bottom: -20px;
+      width: 80px;
+      height: 6px;
+      background: #9c1c28;
+    }
+  }
 }
