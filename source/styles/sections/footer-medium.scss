@@ -1,0 +1,54 @@
+.footer-medium {
+
+
+  background-color: #030303;
+  font-family: $ff-main;
+  margin-top: -2%;
+
+
+    &__listing {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-right: 100px;
+      text-align: left;
+      padding: 0 50px;
+
+    }
+
+    hr {
+      background-color: #9c1c28;
+      height: 6px;
+      border: none;
+      width: 80px;
+      margin-left: 0;
+      margin-bottom: 50px;
+    }
+
+    &__title {
+      margin-top: 5rem;
+      color: white;
+    }
+
+    &__textmed {
+      color: #6d6161;
+      font-family: $ff-main;
+      font-size: 0.9rem;
+
+    }
+
+    &__item {
+      color: #6d6161;
+    }
+
+    &__number {
+      color: #9c1c28;
+      margin-right: 0.6rem;
+    }
+
+    ul {
+      line-height: 4px;
+      letter-spacing: 1px;
+
+  }
+}

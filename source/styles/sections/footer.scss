@@ -1,15 +1,20 @@
 .footer {
   background-color: #000000;
   font-family: $ff-main;
-  border-bottom: 3px solid #595959;
+margin-bottom: 2%;
 
+  .container{
+   width: 1310px;
+    border-bottom: 3px solid #595959;
+    padding-right: 0;
+  }
   &__list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0;
 
-    padding: 0 50px;
+    padding: 0;
   }
 
   &__title {
@@ -37,13 +42,13 @@
 
   &__textletter1 {
     color: #5b5151;
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 
   &__textletter2 {
     color: #5b5151;
     margin-top: -10px;
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 
   .button {
@@ -53,7 +58,7 @@
     margin-top: 15px;
     border-radius: 80px;
     font-size: 1.2rem;
-    width: 41%;
+    width: 30%;
     text-align: center;
 
     &:hover {
@@ -73,6 +78,13 @@
     border: none;
     width: 90px;
     margin-left: 0;
+  }
+  .footer__item{
+    margin: 0;
+    color: #595959;
+    padding: 0;
+    width: 25%;
+
   }
 
 }
