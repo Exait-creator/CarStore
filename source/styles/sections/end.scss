@@ -1,11 +1,35 @@
 .end {
-margin-top: -2%;
+
 background-color: #030303;
+
+  .container1 {
+    width: 1310px;
+    display: flex;
+    padding-left: 100px;
+    border-top: #595959 solid 3px;
+    padding-top: 0;
+    margin-left: 150px;
+  }
   .container{
+
     padding-top: 100px;
     padding-bottom: 50px;
+
+  }
+  hr{
+    margin-left: 100px;
   }
   .text {
     color: white;
+    text-align: left;
+    margin-left: -390px;
+  }
+  .text2 {
+    color: #887979;
+    margin-left: -58.5%;
+  }
+  .cards {
+    text-align: right;
+    margin-right: -295px;
   }
 }
